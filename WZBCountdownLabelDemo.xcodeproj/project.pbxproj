@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310C76DF1D080F1300CB7504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C76DE1D080F1300CB7504 /* main.m */; };
+		310C76E21D080F1300CB7504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C76E11D080F1300CB7504 /* AppDelegate.m */; };
+		310C76E51D080F1300CB7504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C76E41D080F1300CB7504 /* ViewController.m */; };
+		310C76E81D080F1400CB7504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310C76E61D080F1400CB7504 /* Main.storyboard */; };
+		310C76EA1D080F1400CB7504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310C76E91D080F1400CB7504 /* Assets.xcassets */; };
+		310C76ED1D080F1400CB7504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310C76EB1D080F1400CB7504 /* LaunchScreen.storyboard */; };
+		310C76F81D080F1400CB7504 /* WZBCountdownLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C76F71D080F1400CB7504 /* WZBCountdownLabelTests.m */; };
+		310C77031D080F1400CB7504 /* WZBCountdownLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C77021D080F1400CB7504 /* WZBCountdownLabelUITests.m */; };
+		310C77121D080F6300CB7504 /* WZBCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C77111D080F6300CB7504 /* WZBCountdownLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310C76F41D080F1400CB7504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310C76D21D080F1300CB7504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310C76D91D080F1300CB7504;
+			remoteInfo = WZBCountdownLabel;
+		};
+		310C76FF1D080F1400CB7504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310C76D21D080F1300CB7504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310C76D91D080F1300CB7504;
+			remoteInfo = WZBCountdownLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310C76DA1D080F1300CB7504 /* WZBCountdownLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZBCountdownLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		310C76DE1D080F1300CB7504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		310C76E01D080F1300CB7504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		310C76E11D080F1300CB7504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		310C76E31D080F1300CB7504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		310C76E41D080F1300CB7504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		310C76E71D080F1400CB7504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310C76E91D080F1400CB7504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		310C76EC1D080F1400CB7504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		310C76EE1D080F1400CB7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310C76F31D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZBCountdownLabelDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		310C76F71D080F1400CB7504 /* WZBCountdownLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZBCountdownLabelTests.m; sourceTree = "<group>"; };
+		310C76F91D080F1400CB7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310C76FE1D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZBCountdownLabelDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		310C77021D080F1400CB7504 /* WZBCountdownLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZBCountdownLabelUITests.m; sourceTree = "<group>"; };
+		310C77041D080F1400CB7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310C77101D080F6300CB7504 /* WZBCountdownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBCountdownLabel.h; sourceTree = "<group>"; };
+		310C77111D080F6300CB7504 /* WZBCountdownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBCountdownLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310C76D71D080F1300CB7504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76F01D080F1400CB7504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76FB1D080F1400CB7504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310C76D11D080F1300CB7504 = {
+			isa = PBXGroup;
+			children = (
+				310C76DC1D080F1300CB7504 /* WZBCountdownLabel */,
+				310C76F61D080F1400CB7504 /* WZBCountdownLabelTests */,
+				310C77011D080F1400CB7504 /* WZBCountdownLabelUITests */,
+				310C76DB1D080F1300CB7504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310C76DB1D080F1300CB7504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310C76DA1D080F1300CB7504 /* WZBCountdownLabelDemo.app */,
+				310C76F31D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */,
+				310C76FE1D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310C76DC1D080F1300CB7504 /* WZBCountdownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				310C76E01D080F1300CB7504 /* AppDelegate.h */,
+				310C76E11D080F1300CB7504 /* AppDelegate.m */,
+				310C76E31D080F1300CB7504 /* ViewController.h */,
+				310C76E41D080F1300CB7504 /* ViewController.m */,
+				310C77101D080F6300CB7504 /* WZBCountdownLabel.h */,
+				310C77111D080F6300CB7504 /* WZBCountdownLabel.m */,
+				310C76E61D080F1400CB7504 /* Main.storyboard */,
+				310C76E91D080F1400CB7504 /* Assets.xcassets */,
+				310C76EB1D080F1400CB7504 /* LaunchScreen.storyboard */,
+				310C76EE1D080F1400CB7504 /* Info.plist */,
+				310C76DD1D080F1300CB7504 /* Supporting Files */,
+			);
+			path = WZBCountdownLabel;
+			sourceTree = "<group>";
+		};
+		310C76DD1D080F1300CB7504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310C76DE1D080F1300CB7504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310C76F61D080F1400CB7504 /* WZBCountdownLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				310C76F71D080F1400CB7504 /* WZBCountdownLabelTests.m */,
+				310C76F91D080F1400CB7504 /* Info.plist */,
+			);
+			path = WZBCountdownLabelTests;
+			sourceTree = "<group>";
+		};
+		310C77011D080F1400CB7504 /* WZBCountdownLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				310C77021D080F1400CB7504 /* WZBCountdownLabelUITests.m */,
+				310C77041D080F1400CB7504 /* Info.plist */,
+			);
+			path = WZBCountdownLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		310C76D91D080F1300CB7504 /* WZBCountdownLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310C77071D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemo" */;
+			buildPhases = (
+				310C76D61D080F1300CB7504 /* Sources */,
+				310C76D71D080F1300CB7504 /* Frameworks */,
+				310C76D81D080F1300CB7504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZBCountdownLabelDemo;
+			productName = WZBCountdownLabel;
+			productReference = 310C76DA1D080F1300CB7504 /* WZBCountdownLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310C76F21D080F1400CB7504 /* WZBCountdownLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310C770A1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoTests" */;
+			buildPhases = (
+				310C76EF1D080F1400CB7504 /* Sources */,
+				310C76F01D080F1400CB7504 /* Frameworks */,
+				310C76F11D080F1400CB7504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310C76F51D080F1400CB7504 /* PBXTargetDependency */,
+			);
+			name = WZBCountdownLabelDemoTests;
+			productName = WZBCountdownLabelTests;
+			productReference = 310C76F31D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		310C76FD1D080F1400CB7504 /* WZBCountdownLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310C770D1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoUITests" */;
+			buildPhases = (
+				310C76FA1D080F1400CB7504 /* Sources */,
+				310C76FB1D080F1400CB7504 /* Frameworks */,
+				310C76FC1D080F1400CB7504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310C77001D080F1400CB7504 /* PBXTargetDependency */,
+			);
+			name = WZBCountdownLabelDemoUITests;
+			productName = WZBCountdownLabelUITests;
+			productReference = 310C76FE1D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310C76D21D080F1300CB7504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王振标";
+				TargetAttributes = {
+					310C76D91D080F1300CB7504 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					310C76F21D080F1400CB7504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 310C76D91D080F1300CB7504;
+					};
+					310C76FD1D080F1400CB7504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 310C76D91D080F1300CB7504;
+					};
+				};
+			};
+			buildConfigurationList = 310C76D51D080F1300CB7504 /* Build configuration list for PBXProject "WZBCountdownLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310C76D11D080F1300CB7504;
+			productRefGroup = 310C76DB1D080F1300CB7504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310C76D91D080F1300CB7504 /* WZBCountdownLabelDemo */,
+				310C76F21D080F1400CB7504 /* WZBCountdownLabelDemoTests */,
+				310C76FD1D080F1400CB7504 /* WZBCountdownLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310C76D81D080F1300CB7504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310C76ED1D080F1400CB7504 /* LaunchScreen.storyboard in Resources */,
+				310C76EA1D080F1400CB7504 /* Assets.xcassets in Resources */,
+				310C76E81D080F1400CB7504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76F11D080F1400CB7504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76FC1D080F1400CB7504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310C76D61D080F1300CB7504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310C76E51D080F1300CB7504 /* ViewController.m in Sources */,
+				310C76E21D080F1300CB7504 /* AppDelegate.m in Sources */,
+				310C77121D080F6300CB7504 /* WZBCountdownLabel.m in Sources */,
+				310C76DF1D080F1300CB7504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76EF1D080F1400CB7504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310C76F81D080F1400CB7504 /* WZBCountdownLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310C76FA1D080F1400CB7504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310C77031D080F1400CB7504 /* WZBCountdownLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310C76F51D080F1400CB7504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310C76D91D080F1300CB7504 /* WZBCountdownLabelDemo */;
+			targetProxy = 310C76F41D080F1400CB7504 /* PBXContainerItemProxy */;
+		};
+		310C77001D080F1400CB7504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310C76D91D080F1300CB7504 /* WZBCountdownLabelDemo */;
+			targetProxy = 310C76FF1D080F1400CB7504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310C76E61D080F1400CB7504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310C76E71D080F1400CB7504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		310C76EB1D080F1400CB7504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310C76EC1D080F1400CB7504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310C77051D080F1400CB7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		310C77061D080F1400CB7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310C77081D080F1400CB7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZBCountdownLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabel;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+			};
+			name = Debug;
+		};
+		310C77091D080F1400CB7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZBCountdownLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabel;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+			};
+			name = Release;
+		};
+		310C770B1D080F1400CB7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZBCountdownLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabelTests;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZBCountdownLabelDemo.app/WZBCountdownLabelDemo";
+			};
+			name = Debug;
+		};
+		310C770C1D080F1400CB7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZBCountdownLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabelTests;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZBCountdownLabelDemo.app/WZBCountdownLabelDemo";
+			};
+			name = Release;
+		};
+		310C770E1D080F1400CB7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZBCountdownLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabelUITests;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+				TEST_TARGET_NAME = WZBCountdownLabel;
+			};
+			name = Debug;
+		};
+		310C770F1D080F1400CB7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZBCountdownLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MT.WZBCountdownLabelUITests;
+				PRODUCT_NAME = WZBCountdownLabelDemo;
+				TEST_TARGET_NAME = WZBCountdownLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310C76D51D080F1300CB7504 /* Build configuration list for PBXProject "WZBCountdownLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310C77051D080F1400CB7504 /* Debug */,
+				310C77061D080F1400CB7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310C77071D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310C77081D080F1400CB7504 /* Debug */,
+				310C77091D080F1400CB7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310C770A1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310C770B1D080F1400CB7504 /* Debug */,
+				310C770C1D080F1400CB7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310C770D1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310C770E1D080F1400CB7504 /* Debug */,
+				310C770F1D080F1400CB7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310C76D21D080F1300CB7504 /* Project object */;
+}
