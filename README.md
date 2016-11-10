@@ -6,3 +6,8 @@
  只需在你的工程中倒入#import "WZBCountdownLabel.h"，在需要开始倒计时的地方使用[WZBCountdownLabel play];即可！
 
 详解在这:http://www.jianshu.com/p/43a6e362f1a3
+
+
+ 您还可以加入我们的群，大家庭期待您的加入！
+ 
+ ![image](https://raw.githubusercontent.com/WZBbiao/WZBSwitch/master/IMG_1850.JPG)
