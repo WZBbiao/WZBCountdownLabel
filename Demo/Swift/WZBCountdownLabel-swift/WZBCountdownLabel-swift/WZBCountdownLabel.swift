@@ -61,7 +61,7 @@ class WZBCountdownLabel: UILabel {
         
         label.setupLabelBase()
         
-        
+        label.scaleAction()
     }
     
     /// 添加成功回调
