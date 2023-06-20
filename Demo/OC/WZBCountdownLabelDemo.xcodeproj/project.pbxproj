@@ -15,7 +15,7 @@
 		310C76ED1D080F1400CB7504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310C76EB1D080F1400CB7504 /* LaunchScreen.storyboard */; };
 		310C76F81D080F1400CB7504 /* WZBCountdownLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C76F71D080F1400CB7504 /* WZBCountdownLabelTests.m */; };
 		310C77031D080F1400CB7504 /* WZBCountdownLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C77021D080F1400CB7504 /* WZBCountdownLabelUITests.m */; };
-		310C77121D080F6300CB7504 /* WZBCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C77111D080F6300CB7504 /* WZBCountdownLabel.m */; };
+		315245BE2A4204960016BA1C /* WZBCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 315245BD2A4204960016BA1C /* WZBCountdownLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		310C76FE1D080F1400CB7504 /* WZBCountdownLabelDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZBCountdownLabelDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310C77021D080F1400CB7504 /* WZBCountdownLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZBCountdownLabelUITests.m; sourceTree = "<group>"; };
 		310C77041D080F1400CB7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		310C77101D080F6300CB7504 /* WZBCountdownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBCountdownLabel.h; sourceTree = "<group>"; };
-		310C77111D080F6300CB7504 /* WZBCountdownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBCountdownLabel.m; sourceTree = "<group>"; };
+		315245BC2A4204960016BA1C /* WZBCountdownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBCountdownLabel.h; path = ../../../Sources/OC/WZBCountdownLabel.h; sourceTree = "<group>"; };
+		315245BD2A4204960016BA1C /* WZBCountdownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZBCountdownLabel.m; path = ../../../Sources/OC/WZBCountdownLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				310C76E11D080F1300CB7504 /* AppDelegate.m */,
 				310C76E31D080F1300CB7504 /* ViewController.h */,
 				310C76E41D080F1300CB7504 /* ViewController.m */,
-				310C77101D080F6300CB7504 /* WZBCountdownLabel.h */,
-				310C77111D080F6300CB7504 /* WZBCountdownLabel.m */,
+				315245BC2A4204960016BA1C /* WZBCountdownLabel.h */,
+				315245BD2A4204960016BA1C /* WZBCountdownLabel.m */,
 				310C76E61D080F1400CB7504 /* Main.storyboard */,
 				310C76E91D080F1400CB7504 /* Assets.xcassets */,
 				310C76EB1D080F1400CB7504 /* LaunchScreen.storyboard */,
@@ -228,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +278,7 @@
 			files = (
 				310C76E51D080F1300CB7504 /* ViewController.m in Sources */,
 				310C76E21D080F1300CB7504 /* AppDelegate.m in Sources */,
-				310C77121D080F6300CB7504 /* WZBCountdownLabel.m in Sources */,
+				315245BE2A4204960016BA1C /* WZBCountdownLabel.m in Sources */,
 				310C76DF1D080F1300CB7504 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +503,7 @@
 				310C77091D080F1400CB7504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		310C770A1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +512,7 @@
 				310C770C1D080F1400CB7504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		310C770D1D080F1400CB7504 /* Build configuration list for PBXNativeTarget "WZBCountdownLabelDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +521,7 @@
 				310C770F1D080F1400CB7504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
