@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        /// 绑定代理，要在play方法之前
+        /// 绑定代理，要在 play 方法之前
         WZBCountdownLabel.add(delegate: self)
     }
     
